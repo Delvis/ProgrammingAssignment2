@@ -47,7 +47,7 @@ matrix <- makeCacheMatrix()
 matrix$set(c(1,2,3,4))
 ## Let's test it...
 matrix$get()
-## Ok. And now it's inverse:
+## Ok. And now its inverse:
 cacheSolve(matrix)
 ## This last one should give you the proof that it was the inverse:
 matrix$get() %*% cacheSolve(matrix)
